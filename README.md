@@ -103,8 +103,7 @@ You can apply inbuild filter to the source images using
 !
 
 You can also apply custom effect using `Custom.Builder`
-
-For more details check [Custom Filters](https://github.com/burhanrashid52/PhotoEditor/wiki/Filter-Effect)
+ 
 
 
 
@@ -138,11 +137,9 @@ Now you can edit the text with a view like this
 
 ## Emoji
 
-![](https://i.imgur.com/RP8kqz6.gif)
 
 You can add the Emoji by `PhotoEditor.getEmojis(getActivity());` which will return a list of emojis unicode.
 
-`mPhotoEditor.addEmoji(emojiUnicode);`
 
 It will take default fonts provided in the builder,If you want different Emoji fonts for different emoji you can set typeface with each Emoji like this
 
@@ -159,7 +156,7 @@ It will take default fonts provided in the builder,If you want different Emoji f
 
 ## Undo and Redo
 
-![](https://i.imgur.com/1Y9WcCB.gif)
+
 
  ```
    mPhotoEditor.undo();
@@ -191,7 +188,7 @@ It will take default fonts provided in the builder,If you want different Emoji f
                     }
                 });
 ```
-For more detail check [Saving](https://github.com/burhanrashid52/PhotoEditor/wiki/Saving)
+
     
 
 
